@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\dotnetprojects\\SwiggyWebApi\\SwiggyWebApi.csproj": {}
+    "E:\\dotnetprojects\\project2\\swiggywebapi\\SwiggyWebApi.csproj": {}
   },
   "projects": {
-    "E:\\dotnetprojects\\SwiggyWebApi\\SwiggyWebApi.csproj": {
+    "E:\\dotnetprojects\\project2\\swiggywebapi\\SwiggyWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\dotnetprojects\\SwiggyWebApi\\SwiggyWebApi.csproj",
+        "projectUniqueName": "E:\\dotnetprojects\\project2\\swiggywebapi\\SwiggyWebApi.csproj",
         "projectName": "SwiggyWebApi",
-        "projectPath": "E:\\dotnetprojects\\SwiggyWebApi\\SwiggyWebApi.csproj",
+        "projectPath": "E:\\dotnetprojects\\project2\\swiggywebapi\\SwiggyWebApi.csproj",
         "packagesPath": "C:\\Users\\aishwarya.guduru\\.nuget\\packages\\",
-        "outputPath": "E:\\dotnetprojects\\SwiggyWebApi\\obj\\",
+        "outputPath": "E:\\dotnetprojects\\project2\\swiggywebapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aishwarya.guduru\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,6 +38,16 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
