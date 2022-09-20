@@ -1,2 +1,0 @@
-SwiggyWebAPi/bin
-SwiggyWebAPi/obj

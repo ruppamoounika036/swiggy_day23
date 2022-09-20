@@ -3,11 +3,17 @@ import logo from './logo.svg';
 import { Counter } from './features/counter/Counter';
 import './App.css';
 import ContactUs from './email.js'
-
+import Category from './category';
 function App() {
 
 return(
-  <ContactUs/>
+  // <ContactUs/>
+  <>
+  <div>
+  <h1>cfvgbjhnj</h1>
+  <Category/>
+  </div>
+  </>
 );
  
 }
