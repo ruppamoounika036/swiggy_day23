@@ -2024,19 +2024,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\aishwarya.guduru\\.nuget\\packages\\": {}
+    "C:\\Users\\siva.mirrapalli\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\dotnetprojects\\project2\\swiggywebapi\\SwiggyWebApi.csproj",
+      "projectUniqueName": "E:\\Project_2\\SwiggyWebApi\\SwiggyWebApi.csproj",
       "projectName": "SwiggyWebApi",
-      "projectPath": "E:\\dotnetprojects\\project2\\swiggywebapi\\SwiggyWebApi.csproj",
-      "packagesPath": "C:\\Users\\aishwarya.guduru\\.nuget\\packages\\",
-      "outputPath": "E:\\dotnetprojects\\project2\\swiggywebapi\\obj\\",
+      "projectPath": "E:\\Project_2\\SwiggyWebApi\\SwiggyWebApi.csproj",
+      "packagesPath": "C:\\Users\\siva.mirrapalli\\.nuget\\packages\\",
+      "outputPath": "E:\\Project_2\\SwiggyWebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\aishwarya.guduru\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\siva.mirrapalli\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
