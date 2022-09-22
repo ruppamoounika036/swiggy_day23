@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\dotnetprojects\\SwiggyWebApi\\SwiggyWebApi.csproj": {}
+    "D:\\swiggy_20\\SwiggyWebApi\\SwiggyWebApi.csproj": {}
   },
   "projects": {
-    "E:\\dotnetprojects\\SwiggyWebApi\\SwiggyWebApi.csproj": {
+    "D:\\swiggy_20\\SwiggyWebApi\\SwiggyWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\dotnetprojects\\SwiggyWebApi\\SwiggyWebApi.csproj",
+        "projectUniqueName": "D:\\swiggy_20\\SwiggyWebApi\\SwiggyWebApi.csproj",
         "projectName": "SwiggyWebApi",
-        "projectPath": "E:\\dotnetprojects\\SwiggyWebApi\\SwiggyWebApi.csproj",
-        "packagesPath": "C:\\Users\\aishwarya.guduru\\.nuget\\packages\\",
-        "outputPath": "E:\\dotnetprojects\\SwiggyWebApi\\obj\\",
+        "projectPath": "D:\\swiggy_20\\SwiggyWebApi\\SwiggyWebApi.csproj",
+        "packagesPath": "C:\\Users\\mounika.ruppa\\.nuget\\packages\\",
+        "outputPath": "D:\\swiggy_20\\SwiggyWebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\aishwarya.guduru\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\mounika.ruppa\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -38,9 +38,39 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Entity": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools.DotNet": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
             }
           },
           "imports": [
