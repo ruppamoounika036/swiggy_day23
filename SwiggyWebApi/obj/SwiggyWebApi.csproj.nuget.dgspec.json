@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\swiggy_20\\SwiggyWebApi\\SwiggyWebApi.csproj": {}
+    "D:\\swiggy_20\\SwiggyWebApi\\SwiggyWebApi.csproj": {}
   },
   "projects": {
-    "d:\\swiggy_20\\SwiggyWebApi\\SwiggyWebApi.csproj": {
+    "D:\\swiggy_20\\SwiggyWebApi\\SwiggyWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\swiggy_20\\SwiggyWebApi\\SwiggyWebApi.csproj",
+        "projectUniqueName": "D:\\swiggy_20\\SwiggyWebApi\\SwiggyWebApi.csproj",
         "projectName": "SwiggyWebApi",
-        "projectPath": "d:\\swiggy_20\\SwiggyWebApi\\SwiggyWebApi.csproj",
+        "projectPath": "D:\\swiggy_20\\SwiggyWebApi\\SwiggyWebApi.csproj",
         "packagesPath": "C:\\Users\\mounika.ruppa\\.nuget\\packages\\",
-        "outputPath": "d:\\swiggy_20\\SwiggyWebApi\\obj\\",
+        "outputPath": "D:\\swiggy_20\\SwiggyWebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mounika.ruppa\\AppData\\Roaming\\NuGet\\NuGet.Config"

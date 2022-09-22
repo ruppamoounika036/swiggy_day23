@@ -134,7 +134,6 @@ E:\dotnetprojects\project2\swiggywebapi\bin\Debug\net6.0\runtimes\win\lib\netcor
 E:\dotnetprojects\project2\swiggywebapi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 E:\dotnetprojects\project2\swiggywebapi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 E:\dotnetprojects\project2\swiggywebapi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-<<<<<<< HEAD
 E:\Project_2\SwiggyWebApi\bin\Debug\net6.0\appsettings.Development.json
 E:\Project_2\SwiggyWebApi\bin\Debug\net6.0\appsettings.json
 E:\Project_2\SwiggyWebApi\bin\Debug\net6.0\SwiggyWebApi.exe
@@ -196,7 +195,6 @@ E:\Project_2\SwiggyWebApi\obj\Debug\net6.0\refint\SwiggyWebApi.dll
 E:\Project_2\SwiggyWebApi\obj\Debug\net6.0\SwiggyWebApi.pdb
 E:\Project_2\SwiggyWebApi\obj\Debug\net6.0\SwiggyWebApi.genruntimeconfig.cache
 E:\Project_2\SwiggyWebApi\obj\Debug\net6.0\ref\SwiggyWebApi.dll
-=======
 E:\dotnetprojects\project2\swiggywebapi\bin\Debug\net6.0\Newtonsoft.Json.dll
 >>>>>>> c4f5e5f600517f31f02eaa56c63f2e0f079670b0
 >>>>>>> 64ccd8fc1479da6bd4841ccb639d9d962b4b52b8

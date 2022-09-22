@@ -1,6 +1,8 @@
 import {useState} from 'react';
 import {useEffect} from 'react';
+import {useNavigate} from 'react-router-dom';
 function SignUp(){
+  const navigate = useNavigate();
 const initialValues={};
 const [formValues,setFormValues] = useState(initialValues);
 const [confirmpassword,setConfirmPassword] = useState("");
@@ -28,9 +30,11 @@ useEffect(()=>{
         body: JSON.stringify(formValues)
       }).then(res=>{
         if(res){
+         
           console.log("New User is Created Successfully");
         }
       });
+      navigate("/");
     }
 },[formErrors])
 

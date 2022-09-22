@@ -21,10 +21,7 @@ function Signin(){
         setIsSubmit(true);
       }
       useEffect(()=>{
-        console.log("hey 1");
-        console.log(isSubmit);
         if(JSON.stringify(formErrors)===JSON.stringify({}) && isSubmit){
-          console.log("hey 2");
           console.log(JSON.stringify(formValues));
           fetch('https://localhost:7110/Welcome/signin',{
               method: 'POST',
@@ -33,7 +30,7 @@ function Signin(){
             }).then(res=>res.json()).then(res=>{
               if(res=="1"){
                 navigate("/loggedin");
-                console.log("New User is Created Successfully");
+                // console.log("New User is Created Successfully");
               }
             });
           }

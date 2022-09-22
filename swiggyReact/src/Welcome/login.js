@@ -17,7 +17,7 @@ function Login(){
         gapi.load('client:auth2',start);
       })
     const onSuccess=(res)=>{
-        console.log("Login Success ",res.profileObj);
+        console.log("Login Success ",res);
         const initialValues={Firstname:"",Lastname:"",Email:"",Password:""};
         console.log(res.profileObj.familyName);
         if(res.profileObj.familyName==undefined){
