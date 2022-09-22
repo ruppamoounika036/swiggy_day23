@@ -13,7 +13,7 @@ public class WelcomeController : ControllerBase
         Console.WriteLine(l);
         var key = "b14ca5898a4e4133bbce2ea2315a1916";
         var res = AesOperation.EncryptString(key, l.Password);
-        using(var context = new SwiggyTeamAContext()){
+        using(var context = new SwiggyteamAContext()){
             context.LoginDetails.Add(new LoginDetail()
             {     
                 FirstName = l.FirstName,

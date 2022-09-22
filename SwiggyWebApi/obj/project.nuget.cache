@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2xpbZoDReVQAFbVFNOqLZkybUm1dgkVmdrU2Po/s9Phk3/PzUPqyiU0YPOcwLCU7u2r2eGMJGMHDxD0vGFWwfQ==",
+  "dgSpecHash": "zkRnToCPzUMEIPaNNNL/YyvSP6SWre0rHAONTvg7F0e5uXKIWPvKsGSjgFZxI4xpPlJm7KLkBlmdEe8KfP8thw==",
   "success": true,
-  "projectFilePath": "D:\\swiggy_20\\SwiggyWebApi\\SwiggyWebApi.csproj",
+  "projectFilePath": "d:\\swiggy_20\\SwiggyWebApi\\SwiggyWebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mounika.ruppa\\.nuget\\packages\\entity\\1.0.0\\entity.1.0.0.nupkg.sha512",
     "C:\\Users\\mounika.ruppa\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
@@ -112,5 +112,12 @@
     "C:\\Users\\mounika.ruppa\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\mounika.ruppa\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file d:\\swiggy_20\\SwiggyWebApi\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

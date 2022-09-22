@@ -6326,11 +6326,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\swiggy_20\\SwiggyWebApi\\SwiggyWebApi.csproj",
+      "projectUniqueName": "d:\\swiggy_20\\SwiggyWebApi\\SwiggyWebApi.csproj",
       "projectName": "SwiggyWebApi",
-      "projectPath": "D:\\swiggy_20\\SwiggyWebApi\\SwiggyWebApi.csproj",
+      "projectPath": "d:\\swiggy_20\\SwiggyWebApi\\SwiggyWebApi.csproj",
       "packagesPath": "C:\\Users\\mounika.ruppa\\.nuget\\packages\\",
-      "outputPath": "D:\\swiggy_20\\SwiggyWebApi\\obj\\",
+      "outputPath": "d:\\swiggy_20\\SwiggyWebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mounika.ruppa\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -6413,5 +6413,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file d:\\swiggy_20\\SwiggyWebApi\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
