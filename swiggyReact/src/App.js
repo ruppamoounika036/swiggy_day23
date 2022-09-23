@@ -16,6 +16,7 @@ import SignUp from './Welcome/signup';
 import LoggedIn from './Welcome/loggedin';
 import ForgotPassword from "./Welcome/forgotPassword";
 import SendOtp from "./Welcome/sendOtp";
+import ResetPassword from "./Welcome/ResetPassword";
 function App() {
   return (
     
@@ -26,7 +27,8 @@ function App() {
           <Route path="/Signup" element={<SignUp />} />
           <Route path="/loggedin" element={<LoggedIn />} />
           <Route path="/forgotPassword" element={<ForgotPassword />} />
-          <Route path="/sendOtp" element={<SendOtp />} />
+          <Route path="/sendOtp/:id" element={<SendOtp />} />
+          <Route path="/resetPassword" element={<ResetPassword />} />
         </Routes>
         <Routes>
             <Route path="/RegionAdmin" element={<RegionAdmin />} />

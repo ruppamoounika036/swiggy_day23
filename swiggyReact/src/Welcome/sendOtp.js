@@ -51,33 +51,27 @@ import emailjs from 'emailjs-com';
 //       )
 // }
 import OTPInput, { ResendOTP } from "otp-input-react";
+import { Navigate, useParams } from 'react-router';
+import {useNavigate} from 'react-router-dom';
+import ResetPassword from './ResetPassword';
 
 function SendOtp() {
+  const navigate = useNavigate();
   const [OTP, setOTP] = useState("");
-  useEffect(()=>{
-    const digits = '0123456789';
-    let OTP1 = '';
-    for (let i = 0; i < 4; i++) {
-      OTP1 += digits[Math.floor(Math.random() * 10)];
-    }
-    console.log(OTP1);
-    var templateParams = {
-      name: 'James',
-      notes: 'Your OTP'+OTP1
-    };
-    // emailjs.send('service_2u3h36j', 'template_4c5ngjr', templateParams)
-    //   .then(function(response) {
-    //     console.log('SUCCESS!', response.status, response.text);
-    //   }, function(error) {
-    //     console.log('FAILED...', error);
-    //   });
- 
-  },[]);
-    
+  const otp = useParams();
+  const handleSubmit = () =>{
+  if(OTP == otp.id){
+    navigate("/resetPassword");
+  }
+  else{
+    alert("Wrong Otp");
+  }
+}
 
   return (
     <div> 
       <div>Enter Otp</div>
+      <form onSubmit={handleSubmit}>
     <OTPInput
       value={OTP}
       onChange={setOTP}
@@ -87,6 +81,8 @@ function SendOtp() {
       disabled={false}
       secure
     />
+    <button className='button'>Submit</button>
+    </form>
     <ResendOTP handelResendClick={() => console.log("Resend clicked")} />
     </div>
   );

@@ -25,9 +25,8 @@ function ForgotPassword(){
               headers:{'Content-type':'application/json'},
               body: JSON.stringify(formValues)
             }).then(res=>res.json()).then(res=>{
-              if(res=="1"){
-                navigate("/sendOtp");
-                
+              if(res!=0){
+                navigate(`/sendOtp/${res}`);    
                 alert("otp sent");
               }
               else{
